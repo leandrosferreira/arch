@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\FMBDevs\Embarcadero\Studio\17.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl;C:\FMBDevs\Embarcadero\Studio\17.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\Win64;C:\FMBDevs\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\FMBDevs\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\FMBDevs\TortoiseGit\bin;C:\FMBDevs\Git\cmd;C:\xampp\php;C:\composer;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\FMBDevs\AppData\Local\Microsoft\WindowsApps;;C:\FMBDevs\Microsoft VS Code\bin;C:\Users\FMBDevs\AppData\Roaming\Composer\vendor\bin;C:\Users\FMBDevs\AppData\Roaming\npm;C:\Users\FMBDevs\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\FMBDevs\Desktop\testes Js\teste_arch\back\conslogin\package.json: Unexpected string in JSON at position 378
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "conslogin",
+    "version": "1.0.0",
+    "description": "consulta a tabela de login",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node --experimental-modules ./src/app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "leandro ferreira",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1"
+    }
+    "type": "module"  
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
